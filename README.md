@@ -144,6 +144,17 @@ The application should provide an intuitive, responsive, and interactive interfa
 
 ![Analysis-Desk](/images/ag-demo-2w.jpg)
 
+
+## 2.2 Auto Generated Templates 
+
+### Template 1: Nexus UI
+
+![tpl-01](/templates/tpl-01/images/tpl-01-nexus-ui.jpg)
+
+### Template 2: Nexus Suite UI
+
+![tpl-02](/templates//tpl-02/images/tpl-02-nexus-suite-ui.jpg)
+
 Checkout my Medium Article: **Google AntiGravity & Gemini 3** - to read more... 
 
 ---

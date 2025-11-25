@@ -19,6 +19,6 @@ Please Create a Web App with Responsive UI, that contains a
 
 ## App Responsive UI
 
-![app-ui](/images/tpl-01-nexus-ui.jpg)
+![app-ui](./images/tpl-01-nexus-ui.jpg)
 
 
