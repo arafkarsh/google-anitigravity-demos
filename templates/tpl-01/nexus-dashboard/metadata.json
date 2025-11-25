@@ -1,0 +1,5 @@
+{
+  "name": "Nexus Dashboard",
+  "description": "A professional, responsive web application featuring a collapsible tree-view navigation, an integrated Gemini-powered AI chat assistant, and data visualization.",
+  "requestFramePermissions": []
+}
