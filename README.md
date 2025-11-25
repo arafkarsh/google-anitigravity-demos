@@ -6,17 +6,21 @@ FusionMarket is a demo stock analysis web app built to showcase Google AntiGravi
 
 Antigravity is an IDE (integrated development environment) developed by Google, announced in November 18, 2025, intended to be "agent-first" rather than just "AI-assist" in your development workflow.
 
-# 1. What Makes AntiGravity Unique? The iPod Moment!
-When you give a prompt for a feature, here is what AntiGravity does. It comes up with a 
-- Task list, an
-- Implementation Plan and finally a 
-- Walkthrough, 
-- Automated Testing
-- Undo feature 
+## 1. What Makes AntiGravity Unique? The iPod Moment!
+When you ask AntiGravity for a new feature, it doesn't just generate code and vanish into the mist.
 
-The best part is you can verify each step and give your comments if you need a change. 
+It breaks your request down into a clear Task list, a detailed Implementation Plan, and an interactive Walkthrough. On top of that, it supports Automated Testing, offers an Undo (Rollback) feature, and can even use command-line tools on your behalf (with your permission, of course).
 
-## 1.1 Tasks - the "Units of Work" your agent decides to do
+1. **Tasks**
+2. **Implementation Plan**
+3. **Walkthrough**
+4. Automated Testing
+5. Undo (Rollback) Feature
+6. Using Command line Tools (with your permission - ofcourse)
+
+The beauty is that you stay in the driver's seat: you can review each step, comment, and adjust the plan before anything is executed. We'll see all six of these capabilities in action in Section 4, when we dive into the Demo App. For now, let's focus on the **first three core pillars** of AntiGravity. 
+
+## 1.1 Tasks - the "Units of Work" your agent decides to do
 When you ask Antigravity to do something - "Create a stock-analysis app," "Refactor this microservice," "Fix this UI bug" - the agent doesn't immediately start typing code.
 It breaks your request into Tasks.
 A Task is a self-contained chunk of work with:
@@ -26,6 +30,7 @@ A Task is a self-contained chunk of work with:
 - and context from your workspace.
 
 Think of Tasks as the Kanban cards of an AI-driven development workflow, automatically generated.
+
 Tasks can represent things like:
 - "Create project structure"
 - "Build React page components"
@@ -36,10 +41,10 @@ Tasks can represent things like:
 
 Each Task is editable by you - you can change wording, modify requirements, delete, or add new tasks. You're collaborating with the agent, not sending commands into a black hole.
 
->The whole point is:
->Antigravity externalizes its reasoning so you can inspect and steer it.
+> The whole point is:
+> Antigravity externalizes its reasoning so you can inspect and steer it.
 
-## 1.2. Implementation Plans - the agent's "playbook" for solving the task
+## 1.2. Implementation Plans - the agent's "playbook" for solving the task
 Every Task has an associated Implementation Plan.
 
 This is the agent saying: "Here's how I'm going to do what you asked."
@@ -103,11 +108,11 @@ Users can:
 
 It's both a verification layer and a learning interface.
 
-# 2. Why these three together matter
+## 1.4. Why these three together matter
 Individually, each feature is good. Together, they form a unique agent-driven development workflow.
 
 - Tasks → define work clearly
-- Implementation Plans → define how the work should be done 
+- Implementation Plans → define how the work should be done 
 - Walkthroughs → transparently show you what is done and why
 
 This gives you:
@@ -120,4 +125,29 @@ This gives you:
 - a perfect companion for Architectural Leadership programs
 - a structured environment for monolith → microservice migrations
 
-You essentially get a software-development pipeline inside the IDE.
+> **You essentially get a software-development pipeline inside the IDE.**
+
+# 2. Demo App - Stock Market
+The application should provide an intuitive, responsive, and interactive interface for discovering, tracking, and comparing publicly listed companies.
+
+- Intelligent Stock Search
+- Stock Dashboard
+- Stock Analysis Desk
+- Relevant News, Stock Fundamentals
+- Context Aware AI Assistant (Chat)
+
+## 2.1 Dashboard, Analysis Desk, Fundamentals
+
+![Dashboard](/images/ag-demo-1w.jpg)
+
+## 2.2 Analysis Desk: Stock Comparison
+
+![Analysis-Desk](/images/ag-demo-2w.jpg)
+
+Checkout my Medium Article: **Google AntiGravity & Gemini 3** - to read more... 
+
+---
+
+Copyright (c) 2025-26 Araf Karsh Hamid. Apache 2 License
+
+
